@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function Layout(){
     return(
         <>
-            <h1>My Profolio</h1>
+            <p>
+            
+            <h1><img src="./images/myLogo.png" alt="My Logo" />My Profolio</h1>
+            </p>
             <nav>
                 <Link to="/">Home</Link> | 
                 <Link to="aboutme">About Me</Link> | 
