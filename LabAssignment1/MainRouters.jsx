@@ -5,10 +5,12 @@ import AboutMe from "./pages/AboutMe ";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import ContactMe from "./pages/ContactMe";
+import Layout from "./pages/Layout";
 
 const MainRouter = () => {
     return (
         <div>
+            <Layout />
             <Routes>
                 <Route extact path="/" element={<Home />} />
                 <Route extact path="aboutme" element={<AboutMe />} />
