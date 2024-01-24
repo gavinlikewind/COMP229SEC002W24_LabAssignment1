@@ -7,6 +7,7 @@ export default function Layout(){
         <>
             <h1><img src="./images/myLogo.png" alt="My Logo" />My Profolio</h1>
             <br />
+            {/* Navigation Bar  */}
             <nav>
                 <Link to="/">Home</Link> | 
                 <Link to="aboutme">About Me</Link> | 

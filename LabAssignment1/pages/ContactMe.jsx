@@ -35,6 +35,7 @@ export default function ContactMe(){
             
             </script>
             <h2>Contact Me</h2>
+            {/* contact me method list */}
             <ul className="ulContactUs">
                 <li >
                     <div>
@@ -62,6 +63,9 @@ export default function ContactMe(){
             </ul>
 
             <br />
+
+            {/* sending message form */}
+
             <h3>Or send message to me by below form</h3>
             <form method="post" onSubmit={processSubmit}>
                 <table cellPadding="5" cellSpacing="5">
@@ -88,7 +92,7 @@ export default function ContactMe(){
                             <td colSpan="3"><textarea className="messageText" id="txtMessage" name="txtMessage" rows="10" columns="500" required="required"></textarea></td>
                         </tr>
                         <tr>
-                            <td colSpan="4"><input type="submit" id="btnSubmit" value="Send" /></td>
+                            <td colSpan="4"><input className='btnSubmit' type="submit" id="btnSubmit" value="Send" /></td>
                         </tr>
                     </tbody>
                 </table>
