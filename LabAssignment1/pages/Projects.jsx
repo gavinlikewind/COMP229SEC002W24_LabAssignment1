@@ -1,5 +1,5 @@
 import React from "react";
-import imgVTC from "../images/VTC.JPG";
+import imgVTC from "../images/vtc.JPG";
 import imgCLP from "../images/CLP.JPG";
 import imgOrix from "../images/Orix.JPG";
 import imgHKTDC from "../images/HKTDC.JPG";
