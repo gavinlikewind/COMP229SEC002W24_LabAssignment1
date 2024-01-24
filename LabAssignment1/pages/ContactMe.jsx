@@ -1,10 +1,8 @@
-import {useState} from 'react'
-
-
-
+import React from "react";
+import iconPhone from "../images/phone-call.png";
+import iconEmail from "../images/envelope.png";
+import iconWhatsApp from "../images/whatsapp.png";
     
-
-
 export default function ContactMe(){
     
     const processSubmit = (e) =>  {
@@ -39,7 +37,7 @@ export default function ContactMe(){
             <ul className="ulContactUs">
                 <li >
                     <div>
-                        <span><img className="contactmeIcon" src="../images/phone-call.png" /></span>
+                        <span><img className="contactmeIcon" src={iconPhone} /></span>
                         <span>By Phone</span>
                         <p>+1 283782328723</p>
                     </div>
@@ -47,7 +45,7 @@ export default function ContactMe(){
 
                 <li>
                     <div>
-                        <span><img className="contactmeIcon" src="../images/envelope.png" /></span>
+                        <span><img className="contactmeIcon" src={iconEmail} /></span>
                         <span>By Email</span>
                         <p>xx@gmail.com</p>
                     </div>
@@ -55,7 +53,7 @@ export default function ContactMe(){
 
                 <li>
                     <div>
-                        <span><img className="contactmeIcon" src="../images/whatsapp.png" /></span>
+                        <span><img className="contactmeIcon" src={iconWhatsApp} /></span>
                         <span>By WhatsApp</span>
                         <p>+1 283782328723</p>
                     </div>

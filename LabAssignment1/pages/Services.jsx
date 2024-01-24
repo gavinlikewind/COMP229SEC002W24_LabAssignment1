@@ -1,10 +1,14 @@
 import React from "react";
+import imgWebServer from "../images/WebServer.jpeg";
+import imgSystemDevelopment from "../images/SystemDevelopment.png";
+import imgBugfix from "../images/Bugfix.jpeg";
+
 
 /* 2D-Array of my services deatil */
 var serviceList = [
-    ["../images/WebServer.jpeg", "To set up Web Server"], 
-    ["../images/SystemDevelopment.png", "To develop customize system"], 
-    ["../images/Bugfix.jpeg", "To bug fix "]
+    [imgWebServer, "To set up Web Server"], 
+    [imgSystemDevelopment, "To develop customize system"], 
+    [imgBugfix, "To bug fix "]
 ];
 
 /* user the 2D-Array of my services deatil to build ul */
